@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A Simon game for a Free Code Camp challenge.">
+		<title>Simon Game</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Assistant:300%7CCoda:800%7CDroid+Sans+Mono">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/media.css">
+	</head>
+	<body>
+		<main>
+			<div id="outer">
+				<div>
+					<button id="green"></button><button id="red"></button>
+				</div>
+				<div id="inner">
+					<div id="sticker">
+						<h1>Simon<sup>®</sup></h1>
+						<div id="controls">
+							<div>
+								<div id="count">--</div>
+								<div class="controlLabel">Count</div>
+							</div>
+							<div>
+								<button id="start"></button>
+								<div class="controlLabel">Start</div>
+							</div>
+							<div>
+								<button id="strict"></button>
+								<div class="controlLabel">Strict</div>
+							</div>
+							<div id="strictLight"></div>
+						</div>
+						<div>
+							<span>Off </span><button class="power off"></button><span> On</span>
+						</div>
+					</div>
+				</div>
+				<div>
+					<button id="yellow"></button><button id="blue"></button>
+				</div>
+			</div>
+		</main>
+		<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
